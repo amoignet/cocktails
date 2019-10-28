@@ -1,0 +1,17 @@
+<h1>Mes Articles</h1>
+<p *ngFor="let article of articleList">
+  <app-article [produit]="article" (clickTrigger)="ajouteUnPdtAuPanier($event)"></app-article>
+</p>
+<hr>
+<h1>Mon panier</h1>
+<li *ngFor="let item of panier">
+  {{item.nom}}
+</li >
+
+
+
+
+
+
+
+

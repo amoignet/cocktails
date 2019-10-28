@@ -8,6 +8,8 @@ import { CocktailComponent } from './cocktail/cocktail.component';
 import { CocktailListComponent } from './cocktail-list/cocktail-list.component';
 import { DevelopperComponent } from './developper/developper.component';
 import { SkillComponent } from './skill/skill.component';
+import { BoutiqueComponent } from './boutique/boutique.component';
+import { ArticleComponent } from './article/article.component';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { SkillComponent } from './skill/skill.component';
     CocktailListComponent,
     DevelopperComponent,
     SkillComponent,
+    BoutiqueComponent,
+    ArticleComponent,
 
   ],
   imports: [
